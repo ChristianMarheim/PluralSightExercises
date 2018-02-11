@@ -5,4 +5,14 @@
     xmlns:local="using:AndrasPluralsight"
     RequestedTheme="Light">
 
+    <Application.Resources>
+        
+        <ResourceDictionary>
+            <SolidColorBrush Color="Turquoise" x:Key="Turkis" />
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
