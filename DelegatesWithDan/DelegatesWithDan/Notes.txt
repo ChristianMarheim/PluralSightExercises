@@ -1,0 +1,14 @@
+﻿protected virtual = metode som kan overrides
+private virtual = kompile error fordi det selvfølgelig er selvmotsigende
+
+EventHandler = generic delegate class som tar inn "object sender" og "EventArgs args". Generelt interface for å sende data rundt og håndtere i mottaker om det kommer fra rett sender.
+
+EventArgs = best practice for sending data with events!
+Custom EventArgs klasse arver fra EventArgs slik at vi får spesialisert data wrapperen til det vi trenger slik at alt blir mye mer rydding.
+Kan også brukes som EventArgs<T> slik at vi ikke trenger å definere hele custom eventargsen med signaturen som en delegate fordi den uansett må følge (object sender, EventArgs args) signaturen.
+
+En Event er syntactic sugar for en delegate. Må alltid sjekke om delegaten er null ellers får vi NPE. Event kan alltid castes til event typen sin og håndteres slik.
+
+TODO:
+
+Lage event basert iterasjon som finner primtall opp til hundre hvis man bruker delegate for å jobbe videre og event til å skrive ut.

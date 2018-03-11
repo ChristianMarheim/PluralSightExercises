@@ -22,9 +22,13 @@ namespace DelegatesWithDan
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        Class1 minKlasse;
+
         public MainPage()
         {
             this.InitializeComponent();
+            minKlasse = new Class1();
         }
     }
 }
