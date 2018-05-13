@@ -12,3 +12,5 @@ En Event er syntactic sugar for en delegate. Må alltid sjekke om delegaten er n
 TODO:
 
 Lage event basert iterasjon som finner primtall opp til hundre hvis man bruker delegate for å jobbe videre og event til å skrive ut.
+
+
