@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesWithDan", "DelegatesWithDan\DelegatesWithDan.csproj", "{D3124D2D-AD5F-4D12-91C1-5E9CD4DECF03}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FraktalTest", "FraktalTest\FraktalTest.csproj", "{B6609E5B-DFF6-4300-BC0A-E2BA8B0BC30C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciTest", "FraktalTest\FibonacciTest.csproj", "{B6609E5B-DFF6-4300-BC0A-E2BA8B0BC30C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator buttons", "Mediator buttons\Mediator buttons.csproj", "{CC339F19-AA7D-4995-B8CD-723FAB605333}"
 EndProject

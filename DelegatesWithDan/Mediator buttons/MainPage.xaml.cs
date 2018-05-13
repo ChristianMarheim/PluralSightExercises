@@ -27,7 +27,6 @@ namespace Mediator_buttons
             this.InitializeComponent();
             Mediator.GetInstance().OutputData += OnPrintData;
             InputData += Mediator.GetInstance().OnInputData;
-
         }
         public event EventHandler<PrintDataEventArgs> InputData;
 
