@@ -52,12 +52,9 @@ namespace Counter
 
         private void MainPage_OnKeyUp(Object sender, KeyRoutedEventArgs e)
         {
-            if (e.Key == Windows.System.VirtualKey.Shift)
-            {
-                counter++;
-                Text = "" + counter;
-                _text.Text = Text;
-            }
+            counter++;
+            Text = "" + counter;
+            _text.Text = Text;
         }
     }
 }
