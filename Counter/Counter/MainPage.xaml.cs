@@ -29,7 +29,7 @@ namespace Counter
         public MainPage()
         {
             this.InitializeComponent();
-            Size size = new Size {Height = 25, Width = 100};
+            Size size = new Size {Height = 1, Width = 1};
 
             ApplicationView.GetForCurrentView().SetPreferredMinSize(size);
             ApplicationView.PreferredLaunchViewSize = size;
@@ -48,6 +48,16 @@ namespace Counter
             counter = 0;
             Text = "" + counter;
             _text.Text = Text;
+        }
+
+        private void MainPage_OnKeyUp(Object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Shift)
+            {
+                counter++;
+                Text = "" + counter;
+                _text.Text = Text;
+            }
         }
     }
 }
