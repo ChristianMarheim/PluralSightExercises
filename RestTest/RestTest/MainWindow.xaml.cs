@@ -20,9 +20,21 @@ namespace RestTest
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Rest rest = new Rest();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            rest.DoGetWebpage();
+        }
+
+        private void ButtonBase_OnClick2(object sender, RoutedEventArgs e)
+        {
+            rest.DoPost();
         }
     }
 }

@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Lets fucking Google!" Click="ButtonBase_OnClick" HorizontalAlignment="Left" Margin="23,74,0,0" VerticalAlignment="Top" Width="147" Height="38"/>
+        <Button Content="Lets fucking POST" Click="ButtonBase_OnClick2" HorizontalAlignment="Left" Margin="235,74,0,0" VerticalAlignment="Top" Width="135" Height="38"/>
+
     </Grid>
 </Window>
